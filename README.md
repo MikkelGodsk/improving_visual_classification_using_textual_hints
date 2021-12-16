@@ -1,7 +1,7 @@
 # improving_visual_classification_using_textual_hints
 This repository contains the code used for my bachelor thesis at the Technical University of Denmark (DTU)
 
-At the moment, everything is a bit unstructured and most of the documentation in the code is fairly outdated. I uploaded the code in the state it was in when performing the experiments. Since I have had to rename a lot of things after I found better terminology (e.g. in the litterature) than was initially used, there is a discrepancy between some of the terminology in the code and in the report. For now, I here provide a list of the terminology that has changed which can then be used for interpreting the code:
+At the moment, everything is a bit unstructured and some of the documentation (mostly docstrings) in the code is fairly outdated. I uploaded the code in the state it was in when performing the experiments. Since I have had to rename a lot of things after I found better terminology (e.g. in the litterature) than was initially used, there is a discrepancy between some of the terminology in the code and in the report. For now, I here provide a list of the terminology that has changed which can then be used for interpreting the code:
 * `avg sequence`, average sequence has changed into *average word embedding*.
 * `dynamic_masking` has changed into *dynamic dropping* as this made more sense.
 * `dynamic_p` has changed into $p_{\rm kept}$.

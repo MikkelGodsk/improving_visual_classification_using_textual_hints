@@ -10,7 +10,7 @@ At the moment, everything is a bit unstructured and most of the documentation in
 * `validation_set` is the *validation split*
 * `test_set` is the *validation set*
 
-Lastly, the Wikipedia hints should be provided as a file called `wiki_descriptions.json` in the working directory. They can be obtained by running the file `get_wiki_descriptions.py`.
+Lastly, the Wikipedia hints should be provided as a file called `wiki_descriptions.json` in the working directory. They can be obtained by running the file `Wikipedia 2.ipynb`.
 
 **Obtaining ImageNet:**
 First download ImageNet2012 from the official website. Then change the directory in `get_imagenet.py`. Then run it to set up ImageNet for first time use with TensorFlow.

@@ -15,6 +15,9 @@ Lastly, the Wikipedia hints should be provided as a file called `wiki_descriptio
 **Obtaining ImageNet:**
 First download ImageNet2012 from the official website. Then change the directory in `get_imagenet.py`. Then run it to set up ImageNet for first time use with TensorFlow.
 
+## Permutation test for correlation
+The function is included in the file `permutation test for correlation.py`. If run, it will perform unit tests, so use it as an import instead.
+
 ## Experiments
 ### Similarity correlation experiments
 In order to run the experiment where I measure the correlation between the semantic similarity and the similarity for the ResNet50-based embeddings, run the following in the shell:
